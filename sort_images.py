@@ -36,7 +36,7 @@ def shrink_image(img, max_dim):
         img = nimg
     return img
 
-
+'''
 class ImageMemCache(object):
     """
     Load images in separate thread, Nearest Neighbors strategy
@@ -102,7 +102,7 @@ class ImageMemCache(object):
         if len(inds) == 0:
             raise Exception("No image file with name %s found in input path %s" % (f, self._dir))
         return self.get_item_n(inds[0])[0], inds[0]
-
+'''
 
 
 
